@@ -27,11 +27,8 @@ The dataset contains 28 columns, each with varying data types—object, float64,
 ### Data Preprocessing
 We've managed missing values with strategic imputations and handled categorical variables using encoding techniques. Outliers were identified and appropriately dealt with to ensure they did not skew the model.
 
-### Feature Transformation
-Our pipeline includes steps for feature selection, reducing dimensionality where necessary, and transforming text data via text vectorization methods such as TF-IDF.
-
 ### Classification Model
-The core of this project is a Logistic Regression model designed to predict the weight of a book into 5 classes: Very Light, Light, Average, Heavy, Very Heavy.
+The core of this project is a Logistic Regression model designed to predict the weight of a book into 3 classes:  Light, Normal, and Heavy.
 
 ### Hyperparameter Tuning
 We've employed a rigorous grid search to identify the best hyperparameters for our model, ensuring it performs optimally for the task at hand.
